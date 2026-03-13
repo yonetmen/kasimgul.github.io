@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Müzik Kervanı | Ownership</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --card-2: #1f2937;
+      --text: #e5e7eb;
+      --muted: #cbd5e1;
+      --accent: #8b5cf6;
+      --accent-2: #22c55e;
+      --border: rgba(255,255,255,0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    .hero {
+      background: linear-gradient(135deg, rgba(139,92,246,0.18), rgba(34,197,94,0.12));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+    }
+    h1, h2, h3 { margin-top: 0; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    p { color: var(--muted); }
+    .card {
+      margin-top: 20px;
+      background: rgba(17,24,39,0.92);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+    }
+    .label {
+      display: block;
+      font-size: 0.9rem;
+      color: #a5b4fc;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+    a {
+      color: #93c5fd;
+      word-break: break-word;
+    }
+    ul {
+      margin: 8px 0 0 22px;
+      color: var(--muted);
+    }
+    .notice {
+      border-left: 4px solid var(--accent-2);
+      padding: 14px 16px;
+      background: rgba(34,197,94,0.08);
+      border-radius: 10px;
+      margin-top: 14px;
+      color: var(--text);
+    }
+    .footer {
+      margin-top: 28px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 1.6rem; }
+      .container { padding: 18px 14px 40px; }
+      .hero, .card { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Müzik Kervanı</h1>
+      <p><strong>Ownership, Contact, and Google Ads Relationship Information</strong></p>
+      <p>
+        This page exists to clearly identify the ownership and operation of the YouTube channel <strong>Müzik Kervanı</strong>
+        and to explain the relationship between the channel, its public branding, and the individual who manages Google Ads campaigns promoting it.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Owner Information</h2>
+      <div class="grid">
+        <div class="item">
+          <span class="label">Legal Owner / Operator</span>
+          Kasim Gul
+        </div>
+        <div class="item">
+          <span class="label">Public Brand / Channel Name</span>
+          Müzik Kervanı
+        </div>
+        <div class="item">
+          <span class="label">Contact Email</span>
+          <a href="mailto:kasimgul@gmail.com">kasimgul@gmail.com</a>
+        </div>
+        <div class="item">
+          <span class="label">Country of Operation</span>
+          Sweden
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>YouTube Channel Information</h2>
+      <div class="grid">
+        <div class="item">
+          <span class="label">YouTube Channel</span>
+          Müzik Kervanı
+        </div>
+        <div class="item">
+          <span class="label">Channel URL</span>
+          <a href="https://www.youtube.com/channel/UCKe7Smy0KYrvfiWCO07VQHA" target="_blank" rel="noopener noreferrer">
+            https://www.youtube.com/channel/UCKe7Smy0KYrvfiWCO07VQHA
+          </a>
+        </div>
+      </div>
+      <p>
+        Müzik Kervanı is a personal YouTube channel created and operated by <strong>Kasim Gul</strong>.
+        The channel publishes music-related and creative video content, including original productions, remixes, covers,
+        AI-assisted music content, and other audio-visual media intended for public audiences.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Relationship Between Owner and Müzik Kervanı</h2>
+      <p>
+        I, <strong>Kasim Gul</strong>, am the individual owner, operator, and controller of the YouTube channel
+        <strong>Müzik Kervanı</strong>. The name <strong>Müzik Kervanı</strong> is the public-facing brand name of my personal
+        content channel. It is not a separate legal company, agency, reseller, or third-party marketing organization.
+      </p>
+      <p>
+        I personally create, manage, publish, and promote the content on this channel. I also personally manage any
+        Google Ads campaigns used to promote the channel and its content.
+      </p>
+      <div class="notice">
+        There is no third-party agency, no reseller arrangement, and no external business operator involved in the management
+        of this YouTube channel or its advertising campaigns.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Organization Name and Website</h2>
+      <p>
+        <strong>Organization name:</strong> Not a registered company or organization. Individual creator operating under the public brand name <strong>Müzik Kervanı</strong>.
+      </p>
+      <p>
+        <strong>Website:</strong> This page and the YouTube channel listed above serve as the official public information pages for ownership,
+        contact, and advertising relationship details related to Müzik Kervanı.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Service Provided</h2>
+      <p>
+        The service provided through Müzik Kervanı is the creation, publication, and promotion of digital media content,
+        primarily music and video content for online audiences.
+      </p>
+      <ul>
+        <li>Personal YouTube content creation</li>
+        <li>Music and audio-visual publishing</li>
+        <li>Promotion of owned content through Google Ads</li>
+        <li>Audience development for the owner’s personal YouTube channel</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Google Ads Relationship Statement</h2>
+      <p>
+        Google Ads campaigns associated with Müzik Kervanı are managed directly by <strong>Kasim Gul</strong>
+        for the purpose of promoting the owner’s own YouTube channel and content.
+      </p>
+      <p>
+        The advertiser, the channel owner, and the operator of the landing page are the same individual person.
+        The difference is only that <strong>Müzik Kervanı</strong> is used as a public brand/channel name,
+        while the Google Ads account may display the owner’s personal legal identity.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        For questions related to ownership, channel operation, or advertising relationship verification, please contact:
+      </p>
+      <p>
+        <strong>Name:</strong> Kasim Gul<br />
+        <strong>Email:</strong> <a href="mailto:kasimgul@gmail.com">kasimgul@gmail.com</a>
+      </p>
+    </section>
+
+    <p class="footer">
+      Last updated: 2026-03-13<br />
+      © 2026 Kasim Gul / Müzik Kervanı. All rights reserved.
+    </p>
+  </div>
+</body>
+</html>
